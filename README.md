@@ -4,7 +4,8 @@ This project attempts to fill a chess board with as many "amazons" (queens that 
 When entering a board, type comma separated numbers to give information on ROW at a time. The information is where an amazon is in that row with -1 indicating there is no amazon in this row. For example a 5x5 board with one amazon located at (1,3) would be entered like so:
 
  Enter a board as a vector B, 'q' to quit:-1,-1,1,-1,-1
-                                 5 [4, -1, 1, -1, -1] False
+ 
+ 5 [4, -1, 1, -1, -1] False
                                  
 And the program finds that, at most, one more amazon can be placed on this board. One example being at (4,1).
 
